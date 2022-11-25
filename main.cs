@@ -17,19 +17,20 @@ class Program
 
         Console.Write("Enter your age : "); input = Convert.ToInt32(Console.ReadLine());
 
-        if (input >= 17 )
+        if (input >= 17)
         {
             Console.WriteLine("You can see an R movie alone.\n");
-        } 
-        else if (input >= 13) 
+        }
+        else if (input >= 13)
         {
             Console.WriteLine("You can see a PG-13 movie alone\n");
         }
         else if (input >= 5)
         {
             Console.WriteLine("You can see a G or PG movie alone\n");
-        } 
-        else {
+        }
+        else
+        {
             Console.WriteLine("You're too young for most thing\n");
         }
 
