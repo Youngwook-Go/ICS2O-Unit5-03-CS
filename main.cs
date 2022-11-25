@@ -23,14 +23,14 @@ class Program
         } 
         else if (input >= 13) 
         {
-            Console.WriteLine("You can see a PG-13 movie alone");
+            Console.WriteLine("You can see a PG-13 movie alone\n");
         }
         else if (input >= 5)
         {
-            Console.WriteLine("You can see a G or PG movie alone");
+            Console.WriteLine("You can see a G or PG movie alone\n");
         } 
         else {
-            Console.WriteLine("You're too young for most thing");
+            Console.WriteLine("You're too young for most thing\n");
         }
 
         Console.WriteLine("Thanks for verifyng your age");
